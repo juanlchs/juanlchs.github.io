@@ -4,3 +4,42 @@ body{
 .titulo{
     text-align: center;
 }
+.columna_izquierda{
+    background-color: lawngreen;
+    width: 35%;
+    margin-left: 30px;
+    margin-right: 5px;
+    border-radius: 15px;
+}
+.columna_derecha{
+    background-color: lawngreen;
+    width: 60%;
+    margin-right: 30px;
+    margin-left: 5px;
+    border-radius: 15px;
+}
+
+.cuerpo{
+    display: flex;
+}
+
+.dato_contactos{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.contacto{
+    flex-direction: column;
+    text-align: center;
+    font-style: bold;
+}
+h3{
+    margin-left: 10px;
+
+}
+img{
+    width: 20%;
+}
