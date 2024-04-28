@@ -1,39 +1,46 @@
-.titulo{
-    margin-trim: 30px;
-}
 
-body{
-    background-color: rgba(12, 13, 20, 0.329);
-}
-.titulo{
-    text-align: center;
-}
+
 .columna_izquierda{
-    background-color: rgb(252, 253, 250);
+    color: aliceblue;
+    background-color: cadetblue;
     width: 35%;
     margin-left: 30px;
     margin-right: 5px;
-    border-radius: 15px;
 }
-.titulo2{
-    text-align: center;
-}
-.titulo3{
-    text-align: center;
-}
-
-.columna_derecha{
-    background-color: rgb(252, 253, 250);
-    width: 60%;
-    margin-right: 30px;
-    margin-left: 5px;
-    border-radius: 15px;
+.toda_experiencia{
     display:flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-
+    align-items: center
 }
+.titulo2{
+    text-align: center;
+    font-size: 30px;
+}
+.titulo3{
+    text-align: center;
+    font-size: 30px;
+}
+.titulo4{
+    text-align: center;
+    font-size: 30px;
+}
+.titulo5{
+    text-align: center;
+    font-size: 30px;
+}
+.nombre{
+    font-size: 70px;
+    text-align: center;
+}
+.columna_derecha{
+    
+    width: 60%;
+    margin-right: 30px;
+    margin-left: 5px;
+    color: cadetblue;
+}
+
 
 .cuerpo{
     display: flex;
@@ -47,11 +54,8 @@ body{
 
 }
 
-.contacto{
-    flex-direction: column;
-    text-align: center;
-    font-style: bold;
-}
+
+
 h3{
     margin-left: 10px;
 
