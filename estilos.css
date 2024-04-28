@@ -11,19 +11,31 @@ body{
     margin-right: 5px;
     border-radius: 15px;
 }
+.titulo2{
+    text-align: center;
+}
+.titulo3{
+    text-align: center;
+}
+
 .columna_derecha{
     background-color: lawngreen;
     width: 60%;
     margin-right: 30px;
     margin-left: 5px;
     border-radius: 15px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
 }
 
 .cuerpo{
     display: flex;
 }
 
-.dato_contactos{
+.datos_contactos{
     display:flex;
     flex-direction: column;
     justify-content: center;
@@ -42,4 +54,7 @@ h3{
 }
 img{
     width: 20%;
+}
+li{
+    margin-top: 20px;
 }
