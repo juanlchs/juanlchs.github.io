@@ -71,7 +71,14 @@
     align-items: center;
 
 }
+.vinculo{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
 
+}
 .span{
     background-color: rgb(21, 58, 59) ;
 }
@@ -86,14 +93,17 @@ h3{
 img{
     width: 20%;
 }
+
 li{
     margin-top: 20px;
 }
 .barra{
     height: 10px;
+    border-radius:20px ;
     background-color: rgb(12, 198, 211);
 }
 .barra2{
     height: 10px;
+    border-radius:20px ;
     background-color: rgb(12, 198, 211);
 }
