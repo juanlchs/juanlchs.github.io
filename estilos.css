@@ -89,3 +89,7 @@ img{
 li{
     margin-top: 20px;
 }
+.barra{
+    height: 15px;
+    background-color: rgb(12, 198, 211);
+}
