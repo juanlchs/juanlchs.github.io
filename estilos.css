@@ -6,6 +6,7 @@
     width: 35%;
     margin-left: 30px;
     margin-right: 5px;
+    border: 3px solid rgb(21, 58, 59);
 }
 .toda_experiencia{
     display:flex;
@@ -30,7 +31,7 @@
     font-size: 30px;
 }
 .nombre{
-    font-size: 70px;
+    font-size: 80px;
     text-align: center;
 }
 .columna_derecha{
