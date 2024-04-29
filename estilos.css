@@ -13,21 +13,14 @@
     width: 450%;
     display:flex;
     flex-direction: column;
-    /* justify-content: center; */
-    /*align-items: center;*/
     margin-left: 12px;
     margin-right: 10px;
     
 }
 .fotix{
-    border-radius: 40px solid rgb(21, 58, 59);
+    border-radius: 20px solid rgb(21, 58, 59);
 }
-.toda_experiencia{
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center
-}
+
 .titulo2{
     text-align: center;
     font-size: 30px;
@@ -48,6 +41,11 @@
     font-size: 80px;
     text-align: center;
 }
+.parrafo{
+    margin-left: 10px;
+    text-align: justify;
+    margin-right: 10px ;
+}
 .columna_derecha{
     
     width: 60%;
@@ -55,7 +53,12 @@
     margin-left: 5px;
     color: darkslategray;
 }
-
+.toda_experiencia{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+}
 
 .cuerpo{
     display: flex;
@@ -69,8 +72,13 @@
 
 }
 
-
-
+.span{
+    background-color: rgb(21, 58, 59) ;
+}
+.ADSCRIPTO{
+    color: aliceblue;
+    
+}
 h3{
     margin-left: 10px;
 
