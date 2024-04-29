@@ -90,6 +90,10 @@ li{
     margin-top: 20px;
 }
 .barra{
-    height: 15px;
+    height: 10px;
+    background-color: rgb(12, 198, 211);
+}
+.barra2{
+    height: 10px;
     background-color: rgb(12, 198, 211);
 }
