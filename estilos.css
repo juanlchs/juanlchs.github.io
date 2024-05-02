@@ -13,7 +13,7 @@
     display:flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center
+    align-items: center;
     
     
 }
@@ -21,7 +21,35 @@
     width: 75%;
     border-radius: 20px;
 }
+.caja_utn{
+    text-align: center;
+    margin-top: 15px;
+}
+.enlase_utn:hover img{
+    
+    transform: scale(1.1);
+    filter: blur(2px);
+    
+}
+.proyectos{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+}
 
+button{
+width: 200px; 
+height: 75px; 
+margin-top: 25px;
+font-size: 20px;
+border-radius: 20px;
+font-weight: bold ;
+}
+.titulo6{
+    text-align: center;
+    font-size: 30px;
+}
 .titulo2{
     text-align: center;
     font-size: 30px;
